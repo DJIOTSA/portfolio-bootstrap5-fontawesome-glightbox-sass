@@ -1,0 +1,34 @@
+// force utf8 encoding
+@charset 'utf-8';
+
+// customs
+@import "customs/customs";
+
+// abstracts
+@import "abstracts/mixins";
+
+// components and variables
+@import "components/buttons";
+@import "abstracts/variables";
+
+// base
+@import "base/animations";
+@import "base/typography";
+
+// layouts
+@import "layouts/navbar";
+@import "layouts/header";
+@import "layouts/companies";
+@import "layouts/services";
+@import "layouts/testimony";
+@import "layouts/faq";
+@import "layouts/portfolio";
+@import "layouts/get-started";
+@import "layouts/footer";
+
+
+// themes
+@import 'themes/dark';
+@import 'themes/default';
+@import 'themes/light';
+
